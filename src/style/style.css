@@ -1,0 +1,124 @@
+body{
+    background-color: white;
+    margin: 0;
+    padding: 0;
+}
+
+.app-box{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.weather-box{
+    width: 400px;
+    height: 200px;
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.2);
+    border: 1px solid #F1F1F1;
+    border-radius: 10px;
+    background: white;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.weather-box-center{
+    width: 80%;
+    height: 100%;
+
+}
+
+.weather-box-left{
+    width: 65%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    font-family: sans-serif;
+    flex-direction: column;
+    z-index: 0;
+}
+
+.weather-box-right{
+    width: 35%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    font-family: sans-serif;
+    z-index: 0;
+}
+
+.weather-box-right h3{
+    font-size: 40px;
+    margin-top: 20px;
+}
+
+.weather-box-right p{
+    margin-top: -35px;
+    font-size: 15px;
+    color: gray;
+}
+
+.weather-box-left h2{
+    font-size: 30px;
+    margin-top: 50px;
+}
+
+.weather-box-left p{
+    color: gray;
+    font-size: 15px;
+    margin-top: -15px;
+}
+
+.weather-box-icon{
+    position: absolute;
+    width: 310px;
+    height: 200px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.weather-box-icon img{
+    margin-top: 30px;
+    transform: scale(1.2);
+}
+
+input{
+    background: white;
+    border: 0px solid;
+    border: 1px solid #c9c9c9;
+    width: 200px;
+    height: 22px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.2);
+    outline: none;
+    text-align: center;
+}
+
+input::placeholder{
+    text-align: center;
+}
+
+input:focus{
+    box-shadow: 0px 0px 30px rgba(154, 22, 255, 0.2);
+
+}
+
+.veri-bekleniyor{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: 200;
+    color: gray;
+}
+
+
