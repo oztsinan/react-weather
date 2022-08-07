@@ -14,8 +14,9 @@
 #### Projeyi çalıştırmak için
 
 ``` bash
-npm install axios
-# localhost:3000
+npm install react
+npm install --save axios
 npm start
+# localhost:3000
 ```
 
