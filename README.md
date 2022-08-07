@@ -3,6 +3,7 @@
 
 **React Js** kullanarak yazmış olduğum uygulamayı [inceleyebilirsiniz.](https://oztsinan.github.io/weather-react/build)  
 
+** Hava durumu bilgilerini almak için kullandığım api : https://www.weatherapi.com/
 
 ## Sade tasarım
 ![](https://i.ibb.co/ZxPBqT6/photo1.png)
